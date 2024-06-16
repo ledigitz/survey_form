@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+body{
+    background-color:rgb(43, 39, 39);
+}
+.bg{
+    background-color: rgb(3, 3, 41);
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+ margin-top: 5%;
+}
+.bg .form_container{
+    /* display: flex; */
+    width: 100%;
+    background-image: url(../images/form_bg.jpg);
+    background-blend-mode: overlay;
+    background-color:rgb(60, 60, 114);
+   opacity: 0.;
+    margin: auto;
+    background-attachment: fixed;
+   text-align: center;
+
+    
+}
+.bg .form_container .main_form{
+   
+    height: auto;
+    width: 45%;
+    margin: auto;
+    background-color: rgb(3, 3, 41);
+    opacity: 0.8;
+    padding: 2%;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+  
+}
+.txt_form_heading{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 1;
+}
+.txt_sub{
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+    opacity: 1;
+}
+
+.form_input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form_textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.form_select{
+    width: 100%;
+    margin-bottom: 10px;
+    
+
+}
+form input .input_mod{
+    margin-bottom: 0px;
+   
+}
+.form_button{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: rgb(16, 172, 16);
+    border: none;
+    line-height: 35px;
+    color: white;
+}
+.clear{
+    margin-bottom: 10px;
+
+}
